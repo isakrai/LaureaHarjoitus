@@ -16,7 +16,7 @@ body {
     background: red;
     color: white;
     border: dotted 2px;
-    border-color: blue;
+    border-color: yellow;
     width: 100px;
     height: 100px;
 }
@@ -25,4 +25,8 @@ body {
 }
 .ULtyyli {
     list-style-type: square;
+}
+.Ptyyli {
+    color: violet;
+    font-size: 15px;
 }
