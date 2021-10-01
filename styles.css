@@ -12,7 +12,7 @@ body {
     font-size: 12px;
     color: green;
   }
-.tyyli1 {
+div.tyyli1 {
     background: red;
     color: white;
     border: dotted 2px;
