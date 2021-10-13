@@ -14,7 +14,13 @@
 }*/
 nav {
   float: left;
-  width: 100%;
+  width: 30%;
+  height: 100px;
+}
+section {
+  float: left;
+  width: 70%;
+  height: 800px;
 }
 p.perustyyli {
   color:yellow;
@@ -72,6 +78,7 @@ div.tyyli2 {
 }
 .navdiv{
   background-color: lightpink;
+  height: 600px;
 }
 .sectiondiv {
   background-color: lightskyblue;
