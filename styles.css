@@ -12,6 +12,9 @@ h2 {
   border: solid yellow;
   font-size: 30px;
 }
+nav {
+  float: left;
+}
 p.perustyyli {
   color:yellow;
   font-size: large;
