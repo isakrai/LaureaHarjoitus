@@ -1,7 +1,4 @@
-body {
-  background-color: black;
-}
-h1 {
+/*h1 {
   background-color: green;
   text-align: center;
   font-size: 60px;
@@ -9,10 +6,21 @@ h1 {
   border: 2px solid yellow;
   padding: 5px;
 }
-h2 {
+/*h2 {
+  text-align: center;
   color: white;
   border: solid yellow;
   font-size: 30px;
+}*/
+nav {
+  float: left;
+  width: 30%;
+  height: 100px;
+}
+section {
+  float: left;
+  width: 70%;
+  height: 800px;
 }
 p.perustyyli {
   color:yellow;
@@ -20,19 +28,21 @@ p.perustyyli {
   background-color: lightgreen;
   border-radius: 8px;
   padding: 10px;
+  margin: 100px;
 
 }
-body.style {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/frantic/korkeasaari-fi/2019/09/11173316/Korkeasaari_ZOO_PYSTYlogo_DOUBLEGREEN_RGB.png");
+.style {
+  background-color: black;
   background-size: 300px;
 }
 img {
   border: 2px solid yellow;
+  float: left;
 }
 figcaption {
   background-color: green;
   padding: 2px;
-  color: lightyellow
+  color: lightyellow;
 }
 div.tyyli {
   position: relative;
@@ -53,4 +63,23 @@ div.tyyli2 {
   border-color: chartreuse;
   width: 100px;
   height: 550px;
+}
+/*.h2tyyli {
+  text-align: center;
+  color: white;
+  border: solid yellow;
+  font-size: 25px;
+  width: 600px;
+  height: 100px;
+}*/
+/* { box-sizing: border-box; }*/
+.headerdiv {
+  background-color: lightgreen;
+}
+.navdiv{
+  background-color: lightpink;
+  height: 600px;
+}
+.sectiondiv {
+  background-color: lightskyblue;
 }
