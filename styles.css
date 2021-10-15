@@ -13,14 +13,17 @@
   font-size: 30px;
 }*/
 nav {
-  float: left;
-  width: 30%;
-  height: 100px;
+  float:left;
+  width: 8%;
+  height: 300px;
+  background-color: lightpink;
+
 }
 section {
   float: left;
-  width: 70%;
-  height: 800px;
+  width: 92%;
+  height: 300px;
+  background-color: lightskyblue;
 }
 p.perustyyli {
   color:yellow;
@@ -72,14 +75,20 @@ div.tyyli2 {
   width: 600px;
   height: 100px;
 }*/
-/* { box-sizing: border-box; }*/
+/** { box-sizing: border-box; } */
 .headerdiv {
   background-color: lightgreen;
+  height: 100px;
 }
 .navdiv{
-  background-color: lightpink;
-  height: 600px;
+  height: 300px;
+
 }
 .sectiondiv {
-  background-color: lightskyblue;
+
 }
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }  
