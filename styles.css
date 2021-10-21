@@ -1,29 +1,51 @@
-/*h1 {
-  background-color: green;
+h1 {
   text-align: center;
-  font-size: 60px;
-  color: yellow;
-  border: 2px solid yellow;
-  padding: 5px;
+ 
+} 
+h2 {
+  text-align: center;
+  color: darkgrey;
 }
-/*h2 {
-  text-align: center;
+body {
+  background-color: rgb(114, 108, 108);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }  
+header {
+  background-color: rgb(46, 45, 45);
   color: white;
-  border: solid yellow;
-  font-size: 30px;
-}*/
+  height: 30px;
+}
 nav {
   float:left;
-  width: 8%;
+  width: 20%;
   height: 300px;
-  background-color: lightpink;
+  background-color: lightgrey;
 
+}
+nav ul { 
+  list-style-type: none; 
+} 
+nav a { 
+  text-decoration: none; 
 }
 section {
   float: left;
-  width: 92%;
+  width: 80%;
   height: 300px;
   background-color: lightskyblue;
+  padding: 20px;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
 }
 p.perustyyli {
   color:yellow;
@@ -67,28 +89,10 @@ div.tyyli2 {
   width: 100px;
   height: 550px;
 }
-/*.h2tyyli {
-  text-align: center;
-  color: white;
-  border: solid yellow;
-  font-size: 25px;
-  width: 600px;
-  height: 100px;
-}*/
-/** { box-sizing: border-box; } */
+
+* { box-sizing: border-box; } 
 .headerdiv {
   background-color: lightgreen;
   height: 100px;
 }
-.navdiv{
-  height: 300px;
 
-}
-.sectiondiv {
-
-}
-body {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  }  
