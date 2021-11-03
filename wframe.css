@@ -31,6 +31,8 @@ li {
   li a:hover {
     background-color: burlywood;
   }
+
+  }
   .row {
       background-color: rgb(150, 105, 64);
       color: white;
