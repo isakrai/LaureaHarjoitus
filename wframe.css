@@ -40,6 +40,7 @@ li {
   .row {
       background-color: rgb(150, 105, 64);
       color: white;
+      padding-top: 10px;
   }
 .imgright {
     float: right;
