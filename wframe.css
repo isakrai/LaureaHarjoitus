@@ -41,3 +41,12 @@ li {
       background-color: rgb(150, 105, 64);
       color: white;
   }
+.imgright {
+    float: right;
+    padding-bottom: 20px;
+}
+.imgleft {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
