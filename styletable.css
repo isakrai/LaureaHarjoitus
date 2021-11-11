@@ -3,3 +3,10 @@ table, th, td {
     border-collapse: collapse;
     vertical-align: middle;
 }
+body {
+    background-color: rgb(128, 241, 128);
+    font-family: Garamond, serif;
+}
+caption {
+    font-size: 30px;
+}
