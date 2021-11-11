@@ -1,1 +1,10 @@
-
+body {
+    background-color: rgb(47, 85, 161);
+    color: crimson;
+}
+.img-fluid {
+    max-width: 30%;
+}
+.rounded-circle {
+    max-width: 30%;
+}
