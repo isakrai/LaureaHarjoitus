@@ -1,6 +1,6 @@
 body {
     background-color: rgb(216, 137, 81);
-    color: white;
+    color: black;
 }
 h1 {
     color: black;
@@ -23,7 +23,19 @@ a:link {
     transition: all .5s linear 0;
     color: black;
 }
-a:hover {
-    color: hsl( red);
+a:visited {
+    color: black;
 }
-
+a:hover {
+    color: red;
+    transition: all .5s linear 0;
+}
+a:active {
+    color: black;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
